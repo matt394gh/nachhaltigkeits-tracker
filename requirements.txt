@@ -1,0 +1,15 @@
+# Abhaengigkeiten des Nachhaltigkeits-Trackers
+# Installieren mit:  pip install -r requirements.txt
+
+# --- Kern der App (immer noetig) ---
+streamlit>=1.40          # Web-Oberflaeche
+pillow>=10.0             # Bilder laden und bearbeiten
+numpy>=1.26              # Zahlenverarbeitung (Bildarrays)
+transformers>=4.44       # Modell-Ladung fuer Florence-2 (Version B)
+torch>=2.2               # Neuronale Netze (Version B, CPU reicht)
+einops                   # Hilfsbibliothek, die Florence-2 intern nutzen kann
+
+# --- Nur fuer Version A mit ECHTEM Teachable-Machine-Modell ---
+# Erst installieren, sobald das Modell trainiert ist
+# (Anleitung: models/ANLEITUNG-teachable-machine.md):
+# tensorflow>=2.16

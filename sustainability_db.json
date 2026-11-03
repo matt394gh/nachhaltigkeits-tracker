@@ -1,0 +1,157 @@
+{
+  "_hinweis": "WICHTIG: Alle Scores und CO2-Werte sind didaktische Schaetzwerte fuer dieses Schulprojekt. Sie basieren auf qualitativen Kriterien (Materialien, Transparenz, Produktionsmengen, oeffentliche Kritik) und sind KEINE offizielle Bewertung oder Zertifizierung. Das CO2-Gewicht pro Kleidungsstueck ist eine grobe Schaetzung fuer die Herstellung (in kg CO2e).",
+  "_schema": {
+    "name": "Anzeigename der Marke (so soll sie in der App erscheinen)",
+    "aliase": "alternative Schreibweisen, damit der Abgleich mit OCR-Text/klassifiziertem Label klappt",
+    "kategorie": "fast_fashion | mittel | nachhaltig",
+    "score": "Oeko-Score von 0 (sehr schlecht) bis 100 (sehr gut) - Schaetzwert",
+    "co2_pro_teil_kg": "geschaetzter CO2-Ausstoss der Herstellung pro Kleidungsstueck in kg",
+    "bemerkung": "kurze Begruendung zur Einordnung"
+  },
+  "marken": [
+    {
+      "name": "Shein",
+      "aliase": ["SHEIN", "Shein.com"],
+      "kategorie": "fast_fashion",
+      "score": 8,
+      "co2_pro_teil_kg": 14.0,
+      "bemerkung": "Extrem viele neue Kollektionen, ueberwiegend Polyester, wenig Transparenz zur Lieferkette."
+    },
+    {
+      "name": "Temu",
+      "aliase": ["TEMU"],
+      "kategorie": "fast_fashion",
+      "score": 8,
+      "co2_pro_teil_kg": 14.0,
+      "bemerkung": "Discount-Marktplatz mit sehr niedrigen Preisen, lange Transportwege, kaum Nachhaltigkeitsangaben."
+    },
+    {
+      "name": "Primark",
+      "aliase": ["PRIMARK"],
+      "kategorie": "fast_fashion",
+      "score": 15,
+      "co2_pro_teil_kg": 12.0,
+      "bemerkung": "Sehr niedrige Preise, hohe Konsumgeschwindigkeit; erste Nachhaltigkeitsprogramme, aber geringer Anteil."
+    },
+    {
+      "name": "Zara",
+      "aliase": ["ZARA", "Zara Home", "Inditex"],
+      "kategorie": "fast_fashion",
+      "score": 25,
+      "co2_pro_teil_kg": 10.0,
+      "bemerkung": "Schnelle Kollektionswechsel (Fast Fashion), gleichzeitig grosse Recycelt-Programme des Inditex-Konzerns."
+    },
+    {
+      "name": "Bershka",
+      "aliase": ["BERSHKA"],
+      "kategorie": "fast_fashion",
+      "score": 25,
+      "co2_pro_teil_kg": 10.0,
+      "bemerkung": "Gehoert zu Inditex (wie Zara): junge Zielgruppe, schnell wechselnde Kollektionen."
+    },
+    {
+      "name": "H&M",
+      "aliase": ["HM", "H&M Group", "H & M"],
+      "kategorie": "fast_fashion",
+      "score": 30,
+      "co2_pro_teil_kg": 10.0,
+      "bemerkung": "Fast Fashion mit Conscious-Kollektion; Kritik an Greenwashing-Vorwuerfen, aber Recyclingsysteme vorhanden."
+    },
+    {
+      "name": "Uniqlo",
+      "aliase": ["UNIQLO", "Uniqlo Europe"],
+      "kategorie": "mittel",
+      "score": 40,
+      "co2_pro_teil_kg": 9.0,
+      "bemerkung": "Grundlagen-Mode mit langlebigen Basics, eigene Recycling-Initiative, aber grosse Produktionsmengen."
+    },
+    {
+      "name": "C&A",
+      "aliase": ["C und A"],
+      "kategorie": "mittel",
+      "score": 45,
+      "co2_pro_teil_kg": 8.0,
+      "bemerkung": "Viel Bio-Baumwolle im Sortiment und Cradle-to-Cradle-Teile, dennoch Massenproduktion."
+    },
+    {
+      "name": "Nike",
+      "aliase": ["NIKE", "Nike Sportswear"],
+      "kategorie": "mittel",
+      "score": 40,
+      "co2_pro_teil_kg": 11.0,
+      "bemerkung": "Recyceltes Polyester (Move to Zero), aber grosse Umweltlast durch Masse und synthetische Materialien."
+    },
+    {
+      "name": "Adidas",
+      "aliase": ["ADIDAS", "adidas Originals"],
+      "kategorie": "mittel",
+      "score": 45,
+      "co2_pro_teil_kg": 11.0,
+      "bemerkung": "Recyclingprogramme und Partnerschaften, daneben weiterhin hohe Produktionsmengen."
+    },
+    {
+      "name": "Puma",
+      "aliase": ["PUMA"],
+      "kategorie": "mittel",
+      "score": 45,
+      "co2_pro_teil_kg": 11.0,
+      "bemerkung": "Berichtet detailliert ueber Emissionen, Teil des Konzerns mit Masse-Produktion."
+    },
+    {
+      "name": "s.Oliver",
+      "aliase": ["sOliver", "S Oliver"],
+      "kategorie": "mittel",
+      "score": 40,
+      "co2_pro_teil_kg": 8.0,
+      "bemerkung": "Deutscher Modehaendler mit ersten Nachhaltigkeitszielen, Sortiment ueberwiegend konventionell."
+    },
+    {
+      "name": "Patagonia",
+      "aliase": ["PATAGONIA"],
+      "kategorie": "nachhaltig",
+      "score": 85,
+      "co2_pro_teil_kg": 8.0,
+      "bemerkung": "Pionier: recycelte Materialien, Reparatur-Service, lebenslange Garantie, Klimaengagement."
+    },
+    {
+      "name": "Vaude",
+      "aliase": ["VAUDE"],
+      "kategorie": "nachhaltig",
+      "score": 85,
+      "co2_pro_teil_kg": 6.0,
+      "bemerkung": "Deutscher Outdoor-Hersteller, klimaneutrale Produktion, Green Shape Label, Made in Germany-Teile."
+    },
+    {
+      "name": "hessnatur",
+      "aliase": ["Hessnatur", "HESSNATUR"],
+      "kategorie": "nachhaltig",
+      "score": 90,
+      "co2_pro_teil_kg": 5.0,
+      "bemerkung": "Bio-Textilien ohne Gentechnik, faire Produktionsstandorte, hoher Transparenzanspruch."
+    },
+    {
+      "name": "Armedangels",
+      "aliase": ["ARMEDANGELS", "Armed Angels"],
+      "kategorie": "nachhaltig",
+      "score": 85,
+      "co2_pro_teil_kg": 5.0,
+      "bemerkung": "Koelner Label aus Bio-Baumwolle und Recyceltem, GOTS-zertifiziert, faire Preise entlang der Kette."
+    },
+    {
+      "name": "Nudie Jeans",
+      "aliase": ["Nudie", "NUDIE JEANS CO"],
+      "kategorie": "nachhaltig",
+      "score": 85,
+      "co2_pro_teil_kg": 9.0,
+      "bemerkung": "100 Prozent Bio-Baumwolle, gratis Reparaturen lebenslang, volle Transparenz der Lieferkette."
+    },
+    {
+      "name": "Secondhand / Vintage",
+      "aliase": ["Secondhand", "Second Hand", "Vintage", "Gebraucht", "Kleiderkreisel", "Vinted"],
+      "kategorie": "nachhaltig",
+      "score": 95,
+      "co2_pro_teil_kg": 2.0,
+      "bemerkung": "Keine neue Produktion noetig - die klimafreundlichste Variante, ein Kleidungsstueck zu tragen."
+    }
+  ]
+}
